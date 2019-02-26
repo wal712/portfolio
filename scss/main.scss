@@ -46,7 +46,11 @@ body {
         position: absolute;
         top: 0;
         background: rgba($primary-color, 0.9);
-        // left: -10000px;
+        left: -10000px;
+
+        &.open {
+            left: 0;
+        }
 
         .nav-menu {
             list-style: none;
