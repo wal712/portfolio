@@ -28,6 +28,7 @@ body {
   position: absolute;
   left: 35px;
   top: 35px;
+  z-index: 3;
 }
 
 .header .nav-btn .nav-btn-line {
@@ -35,6 +36,29 @@ body {
   height: 5px;
   margin-bottom: 5px;
   background: #f0f0f0;
+}
+
+.header .navbar {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(68, 68, 68, 0.9);
+}
+
+.header .navbar .nav-menu {
+  list-style: none;
+  font-size: 2.5rem;
+  height: 100%;
+  margin-top: 45%;
+}
+
+.header .navbar .nav-menu .menu-item {
+  margin-bottom: 2rem;
+}
+
+.header .navbar .nav-menu .menu-item .menu-link:hover {
+  color: #fdd835;
 }
 
 .header a.menu-link {

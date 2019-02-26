@@ -30,12 +30,37 @@ body {
         position: absolute;
         left: 35px;
         top: 35px;
+        z-index: 3;
 
         .nav-btn-line {
             width: 28px;
             height: 5px;
             margin-bottom: 5px;
             background: #f0f0f0;
+        }
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        background: rgba($primary-color, 0.9);
+        // left: -10000px;
+
+        .nav-menu {
+            list-style: none;
+            font-size: 2.5rem;
+            height: 100%;
+            margin-top: 45%;
+
+            .menu-item {
+                margin-bottom: 2rem;
+
+                .menu-link:hover {
+                    color: $secondary-color;
+                }
+            }
         }
     }
 
