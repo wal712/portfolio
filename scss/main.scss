@@ -26,6 +26,19 @@ body {
     position: fixed;
     z-index: 2;
 
+    .nav-btn {
+        position: absolute;
+        left: 35px;
+        top: 35px;
+
+        .nav-btn-line {
+            width: 28px;
+            height: 5px;
+            margin-bottom: 5px;
+            background: #f0f0f0;
+        }
+    }
+
     a.menu-link {
         color: #fff;
         text-decoration: none;
