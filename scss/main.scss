@@ -31,12 +31,41 @@ body {
         left: 35px;
         top: 35px;
         z-index: 3;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+
 
         .nav-btn-line {
             width: 28px;
             height: 5px;
             margin-bottom: 5px;
             background: #f0f0f0;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+
+        &.open {
+
+            // Rotation logic from: https://www.youtube.com/watch?v=7WaohfclZRs
+            transform: rotate(180deg);
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+
+            .nav-btn-line {
+
+                &:nth-child(1) {
+                    transform: rotate(45deg) translate(5px, 6px);
+                }
+
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+
+                &:nth-child(3) {
+                    transform: rotate(-45deg) translate(8px, -9px);
+                }
+            }
         }
     }
 
@@ -46,10 +75,14 @@ body {
         position: absolute;
         top: 0;
         background: rgba($primary-color, 0.9);
-        left: -10000px;
+        left: -1000px;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
 
         &.open {
             left: 0;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
         }
 
         .nav-menu {
@@ -63,6 +96,7 @@ body {
 
                 .menu-link:hover {
                     color: $secondary-color;
+                    border-bottom: 3px solid $secondary-color;
                 }
             }
         }
