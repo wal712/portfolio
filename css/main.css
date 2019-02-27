@@ -144,4 +144,31 @@ body {
   top: 45%;
   left: 10%;
 }
+
+.about {
+  background: #484848;
+  padding: 2rem;
+}
+
+.about .about-header {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.about .about-img {
+  display: block;
+  width: 230px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+.about .about-info {
+  font-size: 1.2rem;
+  width: 230px;
+  margin: auto;
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=main.css.map */

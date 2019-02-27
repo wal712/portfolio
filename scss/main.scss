@@ -141,3 +141,30 @@ body {
         left: 10%;
     }
 }
+
+// About Section
+.about {
+    background: lighten($primary-color, 1.5);
+    padding: 2rem;
+
+    .about-header {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .about-img {
+        display: block;
+        width: 230px;
+        height: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px black;
+    }
+
+    .about-info {
+        font-size: 1.2rem;
+        width: 230px;
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
