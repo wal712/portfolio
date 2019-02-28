@@ -94,7 +94,11 @@ body {
 .header .navbar .nav-menu {
   list-style: none;
   font-size: 2.5rem;
+<<<<<<< HEAD
   height: 80%;
+=======
+  height: 100%;
+>>>>>>> 465934fa853c96483f717c0f37a35d4c900ae9ac
   margin-top: 25%;
 }
 
