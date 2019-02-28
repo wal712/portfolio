@@ -157,18 +157,27 @@ body {
 
 .about .about-img {
   display: block;
-  width: 230px;
-  height: 230px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about hr {
+  width: 80%;
+  background: #fdd62b;
+  margin-top: 1rem;
+  height: 3px;
 }
 
 .about .about-info {
   font-size: 1.2rem;
-  width: 230px;
+  width: 80%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=main.css.map */
