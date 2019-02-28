@@ -9,3 +9,14 @@ function toggleButton(evt) {
 
 // Menu event listener
 menuButton.addEventListener('click', toggleButton);
+
+// Listener function for Navbar
+function closeNav(evt) {
+    if (evt.target === nav) {
+        nav.classList.remove('open');
+        menuButton.classList.remove('open');
+    }
+}
+
+// Navbar event listener
+nav.addEventListener('click', closeNav);

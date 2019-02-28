@@ -76,7 +76,7 @@ body {
   position: absolute;
   top: 0;
   background: rgba(68, 68, 68, 0.9);
-  left: -1000px;
+  left: -100vw;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-in-out;
@@ -94,8 +94,8 @@ body {
 .header .navbar .nav-menu {
   list-style: none;
   font-size: 2.5rem;
-  height: 100%;
-  margin-top: 45%;
+  height: 80%;
+  margin-top: 25%;
 }
 
 .header .navbar .nav-menu .menu-item {
@@ -153,6 +153,7 @@ body {
 .about .about-header {
   text-align: center;
   font-size: 3rem;
+  font-weight: 400;
 }
 
 .about .about-img {
@@ -179,5 +180,65 @@ body {
   margin: auto;
   margin-top: 1rem;
   line-height: 1.5;
+}
+
+.projects {
+  width: 100%;
+  padding: 2rem;
+  background: #515151;
+}
+
+.projects .projects-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.projects .project-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.projects hr {
+  background: #fdd62b;
+  height: 4px;
+  width: 80%;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+.projects .project {
+  width: 80%;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+  background: #444;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.projects .project .project-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .project .description {
+  padding: 1rem;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.projects .project .project-link {
+  text-decoration: none;
+  padding-left: 1rem;
+  color: #fdd835;
+}
+
+.projects .project .project-link:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

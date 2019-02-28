@@ -75,7 +75,7 @@ body {
         position: absolute;
         top: 0;
         background: rgba($primary-color, 0.9);
-        left: -1000px;
+        left: -100vw;
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
 
@@ -88,8 +88,8 @@ body {
         .nav-menu {
             list-style: none;
             font-size: 2.5rem;
-            height: 100%;
-            margin-top: 45%;
+            height: 80%;
+            margin-top: 25%;
 
             .menu-item {
                 margin-bottom: 2rem;
@@ -150,6 +150,7 @@ body {
     .about-header {
         text-align: center;
         font-size: 3rem;
+        font-weight: 400;
     }
 
     .about-img {
@@ -174,5 +175,63 @@ body {
         margin: auto;
         margin-top: 1rem;
         line-height: 1.5;
+    }
+}
+
+// Projects sections
+.projects {
+    width: 100%;
+    padding: 2rem;
+    background: lighten($primary-color, 5);
+
+    .projects-header {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .project-title {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    hr {
+        background: darken($secondary-color, 2);
+        height: 4px;
+        width: 80%;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 10px black;
+    }
+
+    .project {
+        width: 80%;
+        box-shadow: 0 0 10px black;
+        background: $primary-color;
+        margin: auto;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+
+        .project-img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .description {
+            padding: 1rem;
+            padding-bottom: 0;
+            font-size: 1.2rem;
+        }
+
+        .project-link {
+            text-decoration: none;
+            padding-left: 1rem;
+            color: $secondary-color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
