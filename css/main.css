@@ -148,7 +148,8 @@ body {
 
 .about {
   background: #484848;
-  padding: 2rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 .about .about-header {
@@ -185,7 +186,7 @@ body {
 
 .projects {
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   background: #515151;
 }
 

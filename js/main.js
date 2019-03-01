@@ -12,7 +12,7 @@ menuButton.addEventListener('click', toggleButton);
 
 // Listener function for Navbar
 function closeNav(evt) {
-    if (evt.target === nav) {
+    if (evt.target === nav.firstElementChild) {
         nav.classList.remove('open');
         menuButton.classList.remove('open');
     }

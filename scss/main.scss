@@ -146,7 +146,8 @@ body {
 // About Section
 .about {
     background: lighten($primary-color, 1.5);
-    padding: 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
 
     .about-header {
         text-align: center;
@@ -182,7 +183,7 @@ body {
 // Projects sections
 .projects {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     background: lighten($primary-color, 5);
 
     .projects-header {
