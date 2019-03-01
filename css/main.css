@@ -8,6 +8,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -94,11 +95,7 @@ body {
 .header .navbar .nav-menu {
   list-style: none;
   font-size: 2.5rem;
-<<<<<<< HEAD
-  height: 80%;
-=======
   height: 100%;
->>>>>>> 465934fa853c96483f717c0f37a35d4c900ae9ac
   margin-top: 25%;
 }
 
@@ -138,13 +135,13 @@ body {
 }
 
 .masthead .mast-main {
-  font-size: 3rem;
+  font-size: 3.2rem;
   top: 30%;
   left: 10%;
 }
 
 .masthead .mast-sub {
-  font-size: 1rem;
+  font-size: 1.2rem;
   top: 45%;
   left: 10%;
 }
@@ -200,9 +197,11 @@ body {
 
 .projects .project-title {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 1rem;
+  width: 80%;
+  margin: auto;
 }
 
 .projects hr {
