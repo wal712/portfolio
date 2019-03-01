@@ -1,0 +1,80 @@
+
+
+// Major Breakpoints
+@media screen and (min-width: 750px) {
+    .header {
+
+        .nav-btn {
+            top: 50px;
+            left: 50px;
+
+        }
+
+        .navbar {
+            width: 50vw;
+            font-size: 3rem;
+
+            .nav-menu {
+                margin-top: 60%;
+                font-size: 4rem;
+
+                .menu-item {
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+
+    .masthead {
+        .mast-main {
+            font-size: 5rem;
+        }
+
+        .mast-sub {
+            font-size: 1.8rem;
+        }
+    }
+
+    .about {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        padding-bottom: 4rem;
+
+        .about-header {
+            font-size: 4rem;
+            width: 100%;
+        }
+
+        .about-img {
+            width: 45%;
+            margin: 0;
+        }
+
+        hr {
+            width: 70%;
+            display: none;
+        }
+
+        .about-info {
+            width: 50%;
+            margin: 0;
+            padding-left: 1rem;
+            font-size: 1.7rem;
+        }
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .projects-header {
+            width: 100%;
+            font-size: 4rem;
+        }
+    }
+}
