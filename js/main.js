@@ -24,5 +24,5 @@ nav.addEventListener('click', closeNav);
 // Initializing smooth scrolling plugin 
 document.addEventListener('DOMContentLoaded', function() {
     const elems = document.querySelectorAll('.scrollspy');
-    const instances = M.ScrollSpy.init(elems);
+    const instances = M.ScrollSpy.init(elems, {"throttle": 30});
 });

@@ -1,14 +1,17 @@
 @media screen and (min-width: 750px) {
+  body {
+    font-size: 18px;
+  }
   .header .nav-btn {
     top: 50px;
     left: 50px;
   }
   .header .navbar {
     width: 50vw;
-    font-size: 3rem;
+    font-size: 2em;
   }
   .header .navbar .nav-menu {
-    margin-top: 60%;
+    margin-top: 40%;
     font-size: 4rem;
   }
   .header .navbar .nav-menu .menu-item {
@@ -21,11 +24,27 @@
     font-size: 1.8rem;
   }
   .about {
-    padding-bottom: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .about .about-header {
     font-size: 4rem;
     width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .about .about-img, .about .about-info, .about hr {
+    width: 38em;
+    max-width: 100%;
+  }
+  .about .about-img {
+    max-height: 40vh;
   }
   .projects {
     display: -webkit-box;
@@ -39,7 +58,32 @@
   }
   .projects .projects-header {
     width: 100%;
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  .projects .project {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 38em;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header .navbar {
+    width: 33vw;
+  }
+  .header .navbar .nav-menu {
+    margin-top: 30%;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1420px) {
+  .about hr {
+    display: none;
+  }
+  .about .about-info {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

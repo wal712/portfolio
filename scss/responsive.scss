@@ -2,6 +2,10 @@
 
 // Major Breakpoints
 @media screen and (min-width: 750px) {
+
+    body {
+        font-size: 18px;
+    }
     .header {
 
         .nav-btn {
@@ -12,10 +16,10 @@
 
         .navbar {
             width: 50vw;
-            font-size: 3rem;
+            font-size: 2em;
 
             .nav-menu {
-                margin-top: 60%;
+                margin-top: 40%;
                 font-size: 4rem;
 
                 .menu-item {
@@ -37,11 +41,24 @@
 
     .about {
         // padding: 2rem;
-        padding-bottom: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         .about-header {
             font-size: 4rem;
             width: 100%;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .about-img, .about-info, hr {
+            width: 38em;
+            max-width: 100%;
+        }
+
+        .about-img {
+            max-height: 40vh;
         }
 
     }
@@ -53,9 +70,44 @@
 
         .projects-header {
             width: 100%;
-            font-size: 4rem;
+            font-size: 3.5rem;
+        }
+
+        .project {
+            margin-left: 1em;
+            margin-right: 1em;
+            width: 38em;
+            max-width: 100%;
         }
 
 
+    }
+}
+
+// Minor Breakpoint
+
+@media screen and (min-width: 1000px) {
+    .header {
+        .navbar {
+            width: 33vw;
+
+            .nav-menu {
+                margin-top: 30%;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1420px) {
+    .about {
+
+        hr {
+            display: none;
+        }
+
+        .about-info {
+            margin: 0;
+        }
     }
 }
