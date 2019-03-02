@@ -37,10 +37,10 @@
 
     .about {
 
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        // display: flex;
+        // flex-wrap: wrap;
+        // align-items: center;
+        // justify-content: center;
         padding: 2rem;
         padding-bottom: 4rem;
 
@@ -49,21 +49,8 @@
             width: 100%;
         }
 
-        .about-img {
-            width: 45%;
-            margin: 0;
-        }
-
-        hr {
-            width: 70%;
-            display: none;
-        }
-
         .about-info {
-            width: 50%;
-            margin: 0;
-            padding-left: 1rem;
-            font-size: 1.7rem;
+
         }
     }
 
@@ -76,5 +63,7 @@
             width: 100%;
             font-size: 4rem;
         }
+
+
     }
 }

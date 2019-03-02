@@ -154,7 +154,7 @@ body {
 
 .about .about-header {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
@@ -177,7 +177,7 @@ body {
 }
 
 .about .about-info {
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 80%;
   margin: auto;
   margin-top: 1rem;
@@ -192,26 +192,8 @@ body {
 
 .projects .projects-header {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
-}
-
-.projects .project-title {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  width: 80%;
-  margin: auto;
-}
-
-.projects hr {
-  background: #fdd62b;
-  height: 4px;
-  width: 80%;
-  margin-bottom: 1rem;
-  -webkit-box-shadow: 0 0 10px black;
-          box-shadow: 0 0 10px black;
 }
 
 .projects .project {
@@ -224,6 +206,25 @@ body {
   padding-bottom: 1rem;
 }
 
+.projects .project .project-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 80%;
+  margin: 1rem auto;
+  line-height: 1.5;
+}
+
+.projects .project hr {
+  background: #fdd62b;
+  height: 4px;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
 .projects .project .project-img {
   width: 100%;
   -o-object-fit: cover;
@@ -233,13 +234,15 @@ body {
 .projects .project .description {
   padding: 1rem;
   padding-bottom: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .projects .project .project-link {
   text-decoration: none;
   padding-left: 1rem;
   color: #fdd835;
+  font-size: 1rem;
 }
 
 .projects .project .project-link:hover {
