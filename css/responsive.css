@@ -79,10 +79,19 @@
 }
 
 @media screen and (min-width: 1420px) {
+  .about {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .about hr {
     display: none;
   }
   .about .about-info {
+    margin: 0;
+    margin-left: 1em;
+  }
+  .about .about-img {
     margin: 0;
   }
 }

@@ -101,12 +101,17 @@
 
 @media screen and (min-width: 1420px) {
     .about {
-
+        justify-content: center;
         hr {
             display: none;
         }
 
         .about-info {
+            margin: 0;
+            margin-left: 1em;
+        }
+
+        .about-img {
             margin: 0;
         }
     }
