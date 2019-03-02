@@ -13,6 +13,7 @@ html, body {
 
 body {
   background: #444;
+  font-size: 16px;
   color: #f0f0f0;
 }
 
@@ -148,8 +149,8 @@ body {
 
 .about {
   background: #484848;
-  padding: 1rem;
-  padding-bottom: 2rem;
+  padding: 1em;
+  padding-bottom: 3em;
 }
 
 .about .about-header {
@@ -158,9 +159,13 @@ body {
   font-weight: 400;
 }
 
+.about .about-img, .about hr, .about .about-info {
+  width: 18em;
+  max-width: 100%;
+}
+
 .about .about-img {
   display: block;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-shadow: 0 0 10px black;
@@ -170,15 +175,12 @@ body {
 }
 
 .about hr {
-  width: 80%;
   background: #fdd62b;
   margin-top: 1rem;
   height: 3px;
 }
 
 .about .about-info {
-  font-size: 1rem;
-  width: 80%;
   margin: auto;
   margin-top: 1rem;
   line-height: 1.5;
@@ -186,7 +188,7 @@ body {
 
 .projects {
   width: 100%;
-  padding: 1rem;
+  padding: 1em;
   background: #515151;
 }
 
@@ -194,10 +196,13 @@ body {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .projects .project {
-  width: 80%;
+  width: 18em;
+  max-width: 100%;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
   background: #444;
@@ -211,7 +216,8 @@ body {
   font-size: 1.5rem;
   font-weight: 300;
   width: 80%;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding: 1rem 0;
   line-height: 1.5;
 }
 
@@ -219,8 +225,7 @@ body {
   background: #fdd62b;
   height: 4px;
   width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 0;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
 }
@@ -232,17 +237,13 @@ body {
 }
 
 .projects .project .description {
-  padding: 1rem;
-  padding-bottom: 0;
-  font-size: 1rem;
-  line-height: 1.5;
+  padding: 0 1em;
 }
 
 .projects .project .project-link {
   text-decoration: none;
   padding-left: 1rem;
   color: #fdd835;
-  font-size: 1rem;
 }
 
 .projects .project .project-link:hover {
