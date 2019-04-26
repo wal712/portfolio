@@ -40,10 +40,13 @@
     }
 
     .about {
-        // padding: 2rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+
+        // display: flex;
+        // flex-wrap: wrap;
+        // align-items: center;
+        // justify-content: center;
+        padding: 2rem;
+        padding-bottom: 4rem;
 
         .about-header {
             font-size: 4rem;
@@ -61,6 +64,9 @@
             max-height: 40vh;
         }
 
+        .about-info {
+
+        }
     }
 
     .projects {

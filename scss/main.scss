@@ -15,7 +15,6 @@ html, body {
 
 body {
     background: $primary-color;
-    font-size: 16px;
     color: #f0f0f0;
 }
 
@@ -147,8 +146,8 @@ body {
 // About Section
 .about {
     background: lighten($primary-color, 1.5);
-    padding: 1em;
-    padding-bottom: 3em;
+    padding: 1rem;
+    padding-bottom: 2rem;
 
     .about-header {
         text-align: center;
@@ -156,13 +155,9 @@ body {
         font-weight: 400;
     }
 
-    .about-img, hr, .about-info {
-        width: 18em;
-        max-width: 100%;
-    }
-
     .about-img {
         display: block;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 0 10px black;
@@ -170,12 +165,15 @@ body {
     }
 
     hr {
+        width: 80%;
         background: darken($secondary-color, 2);
         margin-top: 1rem;
         height: 3px;
     }
 
     .about-info {
+        font-size: 1rem;
+        width: 80%;
         margin: auto;
         margin-top: 1rem;
         line-height: 1.5;
@@ -185,20 +183,17 @@ body {
 // Projects sections
 .projects {
     width: 100%;
-    padding: 1em;
+    padding: 1rem;
     background: lighten($primary-color, 5);
 
     .projects-header {
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        margin: 0;
-        margin-bottom: 1rem;
     }
 
     .project {
-        width: 18em;
-        max-width: 100%;
+        width: 80%;
         box-shadow: 0 0 10px black;
         background: $primary-color;
         margin: auto;
@@ -210,8 +205,7 @@ body {
             font-size: 1.5rem;
             font-weight: 300;
             width: 80%;
-            margin: 0 auto;
-            padding: 1rem 0;
+            margin: 1rem auto;
             line-height: 1.5;
         }
     
@@ -219,7 +213,8 @@ body {
             background: darken($secondary-color, 2);
             height: 4px;
             width: 100%;
-            margin: 0;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
             box-shadow: 0 0 10px black;
         }
 
@@ -229,13 +224,17 @@ body {
         }
 
         .description {
-            padding: 0 1em;
+            padding: 1rem;
+            padding-bottom: 0;
+            font-size: 1rem;
+            line-height: 1.5;
         }
 
         .project-link {
             text-decoration: none;
             padding-left: 1rem;
             color: $secondary-color;
+            font-size: 1rem;
 
             &:hover {
                 text-decoration: underline;
