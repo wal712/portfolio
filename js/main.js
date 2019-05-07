@@ -1,6 +1,12 @@
 const menuButton = document.querySelector('.nav-btn');
 const nav = document.querySelector('.navbar');
 
+// Helper function for closing nav
+function close() {
+    nav.classList.remove('open');
+    menuButton.classList.remove('open');
+}
+
 // Listener function for menu button
 function toggleButton(evt) {
     nav.classList.toggle('open');
@@ -12,15 +18,14 @@ menuButton.addEventListener('click', toggleButton);
 
 // Listener function for Navbar
 function closeNav(evt) {
-    if (evt.target === nav.firstElementChild) {
-        nav.classList.remove('open');
-        menuButton.classList.remove('open');
+    if (evt.target === nav.firstElementChild || evt.target === nav) {
+        close();
     }
 }
 
 // Navbar event listener
-nav.addEventListener('click', closeNav);
-
+nav.addEventListener('click', closeNav, true);
+ 
 // Initializing smooth scrolling plugin 
 document.addEventListener('DOMContentLoaded', function() {
     const elems = document.querySelectorAll('.scrollspy');

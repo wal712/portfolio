@@ -24,6 +24,11 @@
     font-size: 1.8rem;
   }
   .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding: 2rem;
     padding-bottom: 4rem;
   }
@@ -33,9 +38,9 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  .about .about-img, .about .about-info, .about hr {
-    width: 38em;
-    max-width: 100%;
+  .about .about-img {
+    width: 40%;
+    margin-bottom: 2rem;
   }
   .about .about-img {
     max-height: 40vh;
@@ -55,10 +60,10 @@
     font-size: 3.5rem;
   }
   .projects .project {
+    height: 80vh;
     margin-left: 1em;
     margin-right: 1em;
-    width: 38em;
-    max-width: 100%;
+    width: 30%;
   }
 }
 
@@ -79,14 +84,18 @@
             justify-content: center;
   }
   .about hr {
-    display: none;
+    width: 60%;
   }
   .about .about-info {
     margin: 0;
     margin-left: 1em;
+    width: 60%;
   }
   .about .about-img {
-    margin: 0;
+    margin: 2rem;
+  }
+  .projects .project {
+    height: 90vh;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -41,8 +41,8 @@
 
     .about {
 
-        // display: flex;
-        // flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
         // align-items: center;
         // justify-content: center;
         padding: 2rem;
@@ -55,9 +55,9 @@
             margin-bottom: 1em;
         }
 
-        .about-img, .about-info, hr {
-            width: 38em;
-            max-width: 100%;
+        .about-img {
+            width: 40%;
+            margin-bottom: 2rem;
         }
 
         .about-img {
@@ -80,10 +80,10 @@
         }
 
         .project {
+            height: 80vh;
             margin-left: 1em;
             margin-right: 1em;
-            width: 38em;
-            max-width: 100%;
+            width: 30%;
         }
 
 
@@ -109,16 +109,24 @@
     .about {
         justify-content: center;
         hr {
-            display: none;
+            // display: none;
+            width: 60%;
         }
 
         .about-info {
             margin: 0;
             margin-left: 1em;
+            width: 60%;
         }
 
         .about-img {
-            margin: 0;
+            margin: 2rem;
+        }
+    }
+
+    .projects {
+        .project {
+            height: 90vh;
         }
     }
 }
